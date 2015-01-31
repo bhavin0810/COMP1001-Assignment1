@@ -76,7 +76,7 @@ public class Hero {
 	 */
 	private int hitDamage()
 	{
-		 return (strength * rand.nextInt(6));
+		 return (this.strength * randomGenerator.nextInt(6));
 	}
 	
 	/**
